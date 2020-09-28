@@ -1,0 +1,53 @@
+img {
+  width: 11rem;
+  margin-right: 1rem;
+
+  @media (max-width: 300px) {
+    width: 8rem;
+    margin: 0;
+  }
+}
+
+.nav-link {
+  font-size: 0.85rem;
+  color: #051033;
+}
+
+.nav-link:hover {
+  color: lighten(#051033, 30%);
+}
+
+.navbar .nav-item .nav-link {
+  font-size: 0.85rem;
+  color: #051033;
+  transition: 0.3s;
+}
+
+.nav-button {
+  border-radius: 0.25rem;
+  padding: 0.7rem 1.5rem !important;
+  border: 0.1rem solid;
+  font-weight: 600;
+  letter-spacing: 0.05rem;
+}
+
+.btn-1 {
+  color: #fff !important;
+  background-color: #6352c9;
+  border-color: #6352c9;
+  margin-left: 0.8rem;
+}
+
+.btn-1:hover {
+  background-color: darken(#6352c9, 20%);
+  border-color: darken(#6352c9, 20%);
+}
+
+.btn-2 {
+  color: #6352c9 !important;
+}
+
+.btn-2:hover {
+  color: darken(#6352c9, 20%) !important;
+  border-color: darken(#6352c9, 20%) !important;
+}

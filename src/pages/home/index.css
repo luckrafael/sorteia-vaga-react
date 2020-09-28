@@ -1,0 +1,18 @@
+.full-background {
+  height: 100vh;
+}
+
+.main-block {
+  padding: 0 10rem 0 1rem;
+}
+.title {
+  font-size: 3.5rem;
+}
+
+.subtitle {
+  margin-bottom: 1.5rem;
+}
+
+.button {
+  padding: 5px;
+}
